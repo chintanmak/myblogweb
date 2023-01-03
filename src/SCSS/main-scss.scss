@@ -1,0 +1,13 @@
+@import "../SCSS/variables";
+@import "../Components/Frontend/frontendscss/index";
+@import "../Admin/adminscss/login";
+@import "../Admin/adminscss/dashboard";
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}

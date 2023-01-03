@@ -1,0 +1,18 @@
+# POST http://localhost:4000/app/signup
+# Content-Type: application/json
+
+# {
+#     "id":"",
+#     "name": "Chintan",
+#     "email": "chintan@gmail.com",
+#     "password": "12345"
+# }
+
+# GET http://localhost:4000/app/get-all-data
+# Content-Type: application/json
+
+GET http://localhost:4000/app/get-data/chintan@gmail.com/12345
+Content-Type: application/json
+
+# GET http://localhost:4000/app/get-data/967f1002b1df
+# Content-Type: application/json

@@ -1,0 +1,32 @@
+.newpost-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+    & .postinput{
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        font-size: 1.5rem;
+        width: 100%;
+        & input{
+            width: 80%;
+            height: 2rem;
+            border-radius: 0.5rem;
+        }
+        & .extra-space{
+            height: 20rem;
+        }
+
+    }
+    & button{
+        font-size: 1rem;
+        width: 15rem;
+        height: 2rem;
+        background-color: transparent;
+        border-radius: 0.5rem;
+    }
+
+}
