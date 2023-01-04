@@ -6,6 +6,7 @@ import Dashboard from "./Admin/pages/Dashboard";
 import Index from "./Components/Frontend/pages/Index";
 import Newpost from "./Admin/pages/Newpost";
 import Allpost from "./Admin/pages/Allpost";
+import Signup from "./Admin/pages/Signup";
 
 function App() {
   return (
@@ -13,13 +14,14 @@ function App() {
       <BrowserRouter>
         <Routes>
           {/* <Route path="/" element={<Index />} /> */}
-          <Route path="/admin" element={<Login />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
         
           
           
-            <Route path="/" element={<Dashboard />} >
-              <Route path="/newpost" element={<Newpost />} />
-              <Route path="/allpost" element={<Allpost />} />
+            <Route path="/Dashboard" element={<Dashboard />} >
+              <Route path="/Dashboard/newpost" element={<Newpost />} />
+              <Route path="/Dashboard/allpost" element={<Allpost />} />
             </Route>
          
           
