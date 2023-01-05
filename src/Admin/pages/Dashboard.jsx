@@ -19,7 +19,7 @@ export default class Dashboard extends Component {
                     <br/>
                     <br/>
                     <br/>
-                    <a href='/'><h1>LOGOUT</h1></a>
+                    <a href='/admin'><h1>LOGOUT</h1></a>
                     
                 </div>
 
