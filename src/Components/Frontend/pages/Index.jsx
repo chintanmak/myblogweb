@@ -1,5 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import axios from "axios";
+import '../frontendscss/_index.scss';
+import logo from '../../../Admin/Assets/logo.png'
 
 export default class Index extends Component {
   constructor(props) {
@@ -33,7 +35,24 @@ export default class Index extends Component {
   }
   render() {
     return (
-      <div>
+      <>
+      <div className='index-page'>
+
+      <div className='navbarsection'>
+      
+      <div className='logosection'>
+        <img src={logo} />
+      </div>
+
+      <div className='menus'>
+        <a href='/'>About</a>
+        <a href='/'>Contact</a>
+      </div>
+      </div>
+
+      <div className='contentsection'>
+
+
     {
   this.state.data.map(item=>(
             <div className=''>
@@ -44,6 +63,8 @@ export default class Index extends Component {
         ))
 }
       </div>
+      </div>
+      </>
     )
   }
 }
