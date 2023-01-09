@@ -1,7 +1,6 @@
 .index-page{
    display: flex;
    flex-direction: column;
-   
    & .navbarsection{
        display: flex;
        flex-direction: row;
@@ -30,7 +29,7 @@
     & .contentsection{
         display: flex;
         flex-direction: column;
-        padding: 1rem 6rem;
+        padding: 3rem 6rem;
         
         & .mainsection{
             display: flex;
@@ -43,6 +42,7 @@
 
             & .maincontent{
                 font-size: 1rem;
+                padding-top: 1rem;
             }
         }
     }

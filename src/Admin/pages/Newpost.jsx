@@ -33,7 +33,7 @@ render() {
             <br />
             <div className="postinput">
             <p>Title: </p>
-            <input type="text" 
+            <textarea type="text" 
               placeholder='Title here..'
               value={this.state.title}
               onChange={(e) => this.setState({ title: e.target.value})}
@@ -44,7 +44,7 @@ render() {
 
             <div className="postinput">
             <p>Content: </p>
-            <input type="text" className='extra-space'
+            <textarea type="text" className='extra-space'
                             placeholder='content here..'
               value={this.state.content}
               onChange={(e) => this.setState({ content: e.target.value})}

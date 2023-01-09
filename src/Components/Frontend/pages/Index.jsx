@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import axios from "axios";
 import '../frontendscss/_index.scss';
-import logo from '../../../Admin/Assets/logo.png'
+import logo from '../../../Admin/Assets/logo.png';
+import bg from '../../../Admin/Assets/background.jpg'
 
 export default class Index extends Component {
   constructor(props) {
@@ -37,7 +38,6 @@ export default class Index extends Component {
     return (
       <>
       <div className='index-page'>
-
       <div className='navbarsection'>
       
         <div className='logosection'>
@@ -61,6 +61,8 @@ export default class Index extends Component {
             <p className='maincontent'>{item.content}</p>
             <br />
             <br />
+            <br />
+            
             </div>   
         ))
 }

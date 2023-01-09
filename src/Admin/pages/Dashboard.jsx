@@ -10,16 +10,14 @@ export default class Dashboard extends Component {
             <div className='dashboard-container'>
                 <div className='navbar-container'>
                     <img src={logo} />
-
+                    
+                    <div className='admin-main-menu'>
                     <a href='/Dashboard/newpost' ><h2>New post</h2></a>
                     <a href='/Dashboard/allpost' ><h2>All posts</h2></a>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                    </div>
+                    <div className='admin-logout'>
                     <a href='/admin'><h1>LOGOUT</h1></a>
+                    </div>
                     
                 </div>
 
