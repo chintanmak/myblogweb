@@ -40,14 +40,15 @@ export default class Index extends Component {
 
       <div className='navbarsection'>
       
-      <div className='logosection'>
-        <img src={logo} />
-      </div>
+        <div className='logosection'>
+          <img src={logo} />
+        </div>
 
-      <div className='menus'>
-        <a href='/'>About</a>
-        <a href='/'>Contact</a>
-      </div>
+        <div className='menus'>
+          <a href='/'>About</a>
+          <a href='/'>Contact</a>
+        </div>
+        
       </div>
 
       <div className='contentsection'>
@@ -55,9 +56,10 @@ export default class Index extends Component {
 
     {
   this.state.data.map(item=>(
-            <div className=''>
-            <p>{item.title}</p>
-            <p>{item.content}</p>
+            <div className='mainsection'>
+            <p className='maintitle'>{item.title}</p>
+            <p className='maincontent'>{item.content}</p>
+            <br />
             <br />
             </div>   
         ))
