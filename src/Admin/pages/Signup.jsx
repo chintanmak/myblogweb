@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from "axios";
-import bg1 from "../Assets/123.jpg";
+import bg1 from "../Assets/pcbg.jpg";
+import logo from "../Assets/logo.png";
 import '../adminscss/_login.scss';
 
 
@@ -33,6 +34,9 @@ export default class Signup extends Component {
     return (
       <>
          <div className='login-full-container'>
+         <div className='login-logo'>
+              <img src={logo} />
+            </div>
                 <div className='bgimg'>
                 <img src={bg1} />
                 </div>
@@ -46,7 +50,8 @@ export default class Signup extends Component {
                     <br />
 
                     <div className='input-section'>
-                        <input type="text" placeholder='NAME'
+                    <p>Name: </p>
+                        <input type="text"
                                value={this.state.name}
                         onChange={(e) => this.setState({ name: e.target.value })}
                         />
@@ -55,7 +60,8 @@ export default class Signup extends Component {
                     <br />
 
                     <div className='input-section'>
-                        <input type="text" placeholder='EMAIL'
+                    <p>Email: </p>
+                        <input type="text"
                             value={this.state.email}
                         onChange={(e) => this.setState({ email: e.target.value })}
                         />
@@ -64,7 +70,8 @@ export default class Signup extends Component {
                     <br />
 
                     <div className='input-section'>
-                        <input type="password" placeholder='CREATE PASSWORD'
+                        <p>Password: </p>
+                        <input type="password"
                             value={this.state.phone}
                         onChange={(e) => this.setState({ password: e.target.value})}
                         />
@@ -73,8 +80,11 @@ export default class Signup extends Component {
                     <br />
 
                     <button onClick={this.onSubmit}>SUBMIT</button>
-
-                    
+                      
+                      <br/>
+                    <h3>
+                      Already have account then <a href='/admin'>Login</a>
+                    </h3>
                     </div>
                 </div>
             </div>
