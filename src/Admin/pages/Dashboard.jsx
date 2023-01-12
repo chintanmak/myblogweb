@@ -16,6 +16,7 @@ export default class Dashboard extends Component {
                     <a href='/Dashboard/allpost' ><h2>All posts</h2></a>
                     </div>
                     <div className='admin-logout'>
+                    <a href='/Dashboard/accounts'><h1>Accounts</h1></a>
                     <a href='/admin'><h1>LOGOUT</h1></a>
                     </div>
                     

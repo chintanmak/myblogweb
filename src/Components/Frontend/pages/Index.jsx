@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import axios from "axios";
 import '../frontendscss/_index.scss';
-import logo from '../../../Admin/Assets/logo.png';
 import bg from '../../../Admin/Assets/background.jpg'
 
 export default class Index extends Component {
@@ -38,19 +37,7 @@ export default class Index extends Component {
     return (
       <>
       <div className='index-page'>
-      <div className='navbarsection'>
       
-        <div className='logosection'>
-          <img src={logo} />
-        </div>
-
-        <div className='menus'>
-          <a href='/'>About</a>
-          <a href='/'>Contact</a>
-        </div>
-        
-      </div>
-
       <div className='contentsection'>
 
 

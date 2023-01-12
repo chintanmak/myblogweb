@@ -1,31 +1,7 @@
 .index-page{
    display: flex;
    flex-direction: column;
-   & .navbarsection{
-       display: flex;
-       flex-direction: row;
-       justify-content: space-between;
-       
-       & .logosection{
-        padding-left: 5rem;
-           & img{
-               width: 10rem;
-           }
-    }
-    & .menus{
-        display: flex;
-        gap: 2rem;
-        padding-right: 5rem;
-        align-items: center;
-        & a{
-            font-size: 1.5rem;
-            color: black;
-            text-decoration: none;
-        }
-    }
-
-    }
-
+ 
     & .contentsection{
         display: flex;
         flex-direction: column;

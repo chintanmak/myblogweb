@@ -146,5 +146,25 @@ router.post('/delete/:title', async(req,res)=>{
 
 })
 
+router.post('/deleteaccount/:name', async(req,res)=>{
+
+    try{
+
+        const data = await signupcopy.findOneAndDelete({
+            name:req.params.name
+        });
+
+        if(data){
+            res.json(data);
+        }
+        else res.sendStatus(404);
+        
+    }catch(err){
+        console.log(err);
+        res.sendStatus(404);
+    }
+
+
+})
 
 module.exports = router
