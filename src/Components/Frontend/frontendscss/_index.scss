@@ -1,16 +1,17 @@
 .index-page{
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
+   width: 100%;
  
     & .contentsection{
         display: flex;
         flex-direction: column;
         padding: 3rem 6rem;
+        width: 60%;
         
         & .mainsection{
             display: flex;
             flex-direction: column;
-            width: 60rem;
 
             & .maintitle{
                 font-size: 1.5rem;
@@ -20,6 +21,19 @@
                 font-size: 1rem;
                 padding-top: 1rem;
             }
+        }
+    }
+
+    & .ads-section{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        border: 1px solid;
+
+    
+        & h1{
+            color: black;
+            font-size: 10rem;
         }
     }
 

@@ -39,8 +39,6 @@ export default class Index extends Component {
       <div className='index-page'>
       
       <div className='contentsection'>
-
-
     {
   this.state.data.map(item=>(
             <div className='mainsection'>
@@ -54,6 +52,16 @@ export default class Index extends Component {
         ))
 }
       </div>
+
+      <div className='ads-section'>
+        <h1>HELLLOOOO GUYSS</h1>
+        <h1>HELLLOOOO GUYSS</h1>
+        <h1>HELLLOOOO GUYSS</h1>
+        <h1>HELLLOOOO GUYSS</h1>
+
+      </div>
+     
+
       </div>
       </>
     )
