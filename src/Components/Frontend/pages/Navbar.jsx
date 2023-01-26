@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../frontendscss/_navbar.scss';
-import logo from '../../../Admin/Assets/logo.png';
+import logo from '../../../Admin/Assets/blogweblogo.png';
 import { Outlet } from 'react-router';
 
 export default class Navbar extends Component {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from "axios";
 import bg1 from "../Assets/pcbg.jpg";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/blogweblogo.png";
 import '../adminscss/_login.scss';
 
 

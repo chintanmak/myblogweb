@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Outlet } from 'react-router';
 import '../adminscss/_dashboard.scss';
-import logo from '../Assets/logo.png';
+import logo from '../Assets/blogweblogo.png';
 
 export default class Dashboard extends Component {
   render() {
@@ -16,8 +16,8 @@ export default class Dashboard extends Component {
                     <a href='/Dashboard/allpost' ><h2>All posts</h2></a>
                     </div>
                     <div className='admin-logout'>
-                    <a href='/Dashboard/accounts'><h1>Accounts</h1></a>
-                    <a href='/admin'><h1>LOGOUT</h1></a>
+                    <a href='/Dashboard/accounts'><h2>Accounts</h2></a>
+                    <a href='/admin'><h2>Logout</h2></a>
                     </div>
                     
                 </div>
