@@ -1,3 +1,47 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {   
+.index-page{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+ 
+    & .contentsection{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 3rem;
+        width: 70%;
+        
+        & .mainsection{
+            display: flex;
+            flex-direction: column;
+
+            & .maintitle{
+                font-size: 1.5rem;
+            }
+
+            & .maincontent{
+                font-size: 1rem;
+                padding-top: 1rem;
+            }
+        }
+    }
+
+    & .ads-section{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        border: 1px solid;
+
+    
+        & h1{
+            color: black;
+            font-size: 10rem;
+        }
+    }
+
+}
+}
+
+@media screen and (min-width: 769px) {
 .index-page{
    display: flex;
    flex-direction: row;
@@ -37,4 +81,5 @@
         }
     }
 
+}
 }

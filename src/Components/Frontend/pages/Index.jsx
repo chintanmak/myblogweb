@@ -53,14 +53,6 @@ export default class Index extends Component {
 }
       </div>
 
-      <div className='ads-section'>
-        <h1>HELLLOOOO GUYSS</h1>
-        <h1>HELLLOOOO GUYSS</h1>
-        <h1>HELLLOOOO GUYSS</h1>
-        <h1>HELLLOOOO GUYSS</h1>
-
-      </div>
-     
 
       </div>
       </>

@@ -45,7 +45,7 @@ export default class Signup extends Component {
 
                     <div className='login-section signup-section'>
                     
-                    <h1>SIGN UP</h1>
+                    <h3>SIGN UP</h3>
 
                     <br />
 
