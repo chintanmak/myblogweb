@@ -6,7 +6,16 @@ export default class Contact extends Component {
   render() {
     return (
       <>
-   hello Contact
+        <div className='about-container'>
+          <p>
+          Hello viewer:
+          <br />
+          <br />
+          wanna contact mail us on 
+          <br />
+          chintanmakwana2011@gmail.com
+          </p>
+        </div>
       </>
     )
   }

@@ -6,7 +6,11 @@ export default class About extends Component {
   render() {
     return (
       <>
-   hello abouts
+        <div className='about-container'>
+          <p>
+            Hi this is just a basic some personal blog website 
+          </p>
+        </div>
       </>
     )
   }

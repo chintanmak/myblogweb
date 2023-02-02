@@ -39,20 +39,24 @@ export default class Index extends Component {
       <div className='index-page'>
       
       <div className='contentsection'>
-    {
-  this.state.data.map(item=>(
-            <div className='mainsection'>
-            <p className='maintitle'>{item.title}</p>
-            <p className='maincontent'>{item.content}</p>
-            <br />
-            <br />
-            <br />
-            
-            </div>   
-        ))
-}
+      {
+        this.state.data.map(item=>(
+                  <div className='mainsection'>
+                  <p className='maintitle'>{item.title}</p>
+                  <p className='maincontent'>{item.content}</p>
+                  <br />
+                  <br />
+                  <br />
+                  
+                  </div>   
+              ))
+      }
       </div>
 
+      <div className='ads-section'>
+        <p>hello this is ads </p>
+        <p>buy this buy that</p>
+      </div>
 
       </div>
       </>
