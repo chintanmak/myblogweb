@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../frontendscss/_about.scss';
+import ad from '../../../Admin/Assets/ads.jpg';
 
 export default class About extends Component {
  
@@ -10,6 +11,7 @@ export default class About extends Component {
           <p>
             Hi this is just a basic some personal blog website 
           </p>
+        <img src={ad} />
         </div>
       </>
     )
